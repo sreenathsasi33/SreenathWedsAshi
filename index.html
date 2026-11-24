@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#7b1e2b">
+<title>Sreenath & Ashitha | Wedding Reception</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Noto+Serif+Malayalam:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loader" class="loader">
+  <div class="lamp">🪔</div>
+  <div class="loader-title">Sreenath &amp; Ashitha</div>
+  <div class="loader-sub">A celebration of love &amp; togetherness</div>
+</div>
+
+<header class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="ornament">❦</div>
+    <p class="eyebrow">WITH THE BLESSINGS OF OUR FAMILIES</p>
+    <h1>Sreenath <span>&amp;</span> Ashitha</h1>
+    <p class="script">are beginning a beautiful new chapter together</p>
+    <button class="open-btn" onclick="document.getElementById('invitation').scrollIntoView({behavior:'smooth'})">
+      Open Invitation
+    </button>
+  </div>
+</header>
+
+<main id="invitation">
+
+<section class="intro section">
+  <div class="section-mark">❁</div>
+  <p class="malayalam">സ്നേഹവും സന്തോഷവും നിറഞ്ഞൊരു പുതിയ യാത്രയ്ക്ക് തുടക്കം...</p>
+  <h2>We would love to celebrate<br>this special moment with you</h2>
+  <p class="muted">Please join us as we celebrate the wedding reception of</p>
+  <div class="names">Sreenath Sasi <span>&amp;</span> Ashitha T</div>
+</section>
+
+<section class="photo-feature">
+  <img src="images/photo2.jpg" alt="Sreenath and Ashitha">
+</section>
+
+<section class="events section">
+  <div class="section-mark">✦</div>
+  <p class="eyebrow dark">THE WEDDING</p>
+  <h2>Beginning of Forever</h2>
+  <div class="event-card wedding-card">
+    <div class="event-icon">❁</div>
+    <h3>Wedding Ceremony</h3>
+    <p class="date">24 January 2027</p>
+    <p>10:30 AM – 11:30 AM</p>
+    <p class="small">Wedding ceremony details to be shared with family &amp; guests.</p>
+  </div>
+</section>
+
+<section class="reception section">
+  <div class="section-mark">✦</div>
+  <p class="eyebrow dark">THE MAIN CELEBRATION</p>
+  <h2>Wedding Reception</h2>
+  <div class="event-card featured">
+    <div class="event-icon">♥</div>
+    <h3>Sreenath &amp; Ashitha</h3>
+    <p class="date">25 January 2027</p>
+    <p class="time">4:30 PM – 8:30 PM</p>
+    <p class="venue">Yahshua Auditorium (Casino)<br>Vellarikkundu, Kasargod</p>
+    <a class="map-btn" target="_blank"
+       href="https://www.google.com/maps/search/?api=1&query=Yahshua+Auditorium+Casino+Vellarikkundu+Kasargod">
+       📍 View on Google Maps
+    </a>
+  </div>
+</section>
+
+<section class="gallery section">
+  <div class="section-mark">❁</div>
+  <p class="eyebrow dark">A FEW MEMORIES</p>
+  <h2>Our Moments</h2>
+  <div class="grid">
+    <img src="images/photo1.jpg" alt="Sreenath and Ashitha">
+    <img src="images/photo3.jpg" alt="Sreenath and Ashitha">
+    <img src="images/photo4.jpg" alt="Sreenath and Ashitha">
+    <img src="images/photo5.jpg" alt="Sreenath and Ashitha">
+    <img src="images/photo6.jpg" alt="Sreenath and Ashitha">
+  </div>
+</section>
+
+<section class="countdown section">
+  <p class="eyebrow">COUNTING DOWN TO OUR CELEBRATION</p>
+  <div id="timer" class="timer">
+    <div><strong id="days">--</strong><span>Days</span></div>
+    <div><strong id="hours">--</strong><span>Hours</span></div>
+    <div><strong id="minutes">--</strong><span>Minutes</span></div>
+    <div><strong id="seconds">--</strong><span>Seconds</span></div>
+  </div>
+</section>
+
+<section class="closing section">
+  <div class="closing-photo">
+    <img src="images/photo6.jpg" alt="Sreenath and Ashitha">
+  </div>
+  <div class="closing-copy">
+    <div class="ornament">❦</div>
+    <h2>Two hearts.<br>One beautiful journey.</h2>
+    <p>Your presence and blessings will make our celebration even more special.</p>
+    <div class="signature">Sreenath &amp; Ashitha</div>
+    <p class="thankyou">With love, we look forward to seeing you.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="lamp">🪔</div>
+  <p>Sreenath Sasi &amp; Ashitha T</p>
+  <small>25 January 2027 · Vellarikkundu, Kasargod</small>
+</footer>
+
+</main>
+
+<button id="musicBtn" class="music-btn" aria-label="Toggle music">♪</button>
+<audio id="bgMusic" loop preload="none"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
